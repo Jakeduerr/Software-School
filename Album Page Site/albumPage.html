@@ -6,26 +6,35 @@
             table, th, td {
                 border: 1px solid black;
             }
+
+            .col {
+                align: center;
+                width: 50%;
+            }
         </style>
+        <link href="albumStyles.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <center>
-        <img src="https://is5-ssl.mzstatic.com/image/thumb/Music/f9/25/f0/mzi.pjfjrguk.jpg/600x600bf.jpg" style="width: 300px;"/> 
+        <img src="https://is5-ssl.mzstatic.com/image/thumb/Music/f9/25/f0/mzi.pjfjrguk.jpg/600x600bf.jpg" style="width: 350px;"/> 
         <h1>Toxicity</h1>
         <h2><a href="http://systemofadown.com/">System of a Down</a></h2>
         <h3>September 4, 2001</h3><hr/>
-        <h2>Band Members and Producers</h2>
+        <h2 style="margin: 0; padding: .05%;">Band Members and Producers</h2>
         </center>
-        <ul>
-            <li>Serj Tankian - Lead Vocals, Keyboard, Rhythm Guitar</li>
-            <li>Daron Malakian - Lead Guitar, Vocals</li>
-            <li>Shavo Odadjian - Bass, Backup Vocals</li>
-            <li>John Dolmayan - Drums</li>
-            <li>Producers: Rick Rubin, Daron Malakian, and Serj Tankian</li>
-        </ul>
-        <table border="1" width="100%">
-            <caption>Tracks</caption>
-            <tr bgcolor="grey">
+        <div class="col">
+            <ul>
+                <li>Serj Tankian - Lead Vocals, Keyboard, Rhythm Guitar</li>
+                <li>Daron Malakian - Lead Guitar, Vocals</li>
+                <li>Shavo Odadjian - Bass, Backup Vocals</li>
+                <li>John Dolmayan - Drums</li>
+                <li>Producers: Rick Rubin, Daron Malakian, and Serj Tankian</li>
+            </ul>
+        </div>
+        <center>
+        <table width="90%">
+            <caption style="color:rgb(218, 39, 39);">Tracks</caption>
+            <tr bgcolor="#999">
                 <th>Track #</th>
                 <th>Track Title</th>
                 <th>Track Length</th>
@@ -46,5 +55,6 @@
                 <td align="center">2:55</td>
             </tr>
         </table>
+        </center>
     </body>
 </html>
