@@ -1,0 +1,43 @@
+header {
+    font-family: Times New Roman;
+    color: brown;
+}
+
+body {
+    background: rgb(255, 224, 182);
+}
+
+a {
+    color: blue;
+    margin: 1.25%;
+}
+
+p {
+    border-style: solid;
+    border-width: 1px;
+    width: 465px;
+    text-align: center;
+    padding: 1% 1% 12% 1%;
+    font-size: 130%;
+    background-color: white;
+}
+
+.footerholder {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.footer {
+    font-family: Times New Roman;
+    color: brown;
+}
+
+.col {
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    width: 24%;
+    text-align: right;
+}
