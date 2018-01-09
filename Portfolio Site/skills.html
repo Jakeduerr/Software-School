@@ -2,16 +2,40 @@
 <html>
     <head>
         <title>Jacob Duerr - Skills</title>
-        <style>
-            table, th, td {
-                border:1px solid black;
-            }
-        </style>
+        <link href="portfolioStyles.css" rel="stylesheet" type="text/css"/>
+            <style>
+                table, th, td {
+                    border: 1px solid #292533;
+                    padding: 5px 10px 5px 10px;
+                    border-spacing: 2px 5px;
+                }
+
+                table {
+                    width: 100%;
+                }
+
+                td, th {
+                    height: 30px;
+                }
+
+                th {
+                    background-color: #5b7d87;
+                    color: white;
+                }
+                
+                tr:nth-child(odd) {
+                    background-color: #d5d2cb;
+                }
+            </style>
     </head>
     <body>
         <h3>Navigation</h3>
-        <a href="index.html">Home</a>
-        <a href="contact.html">Contact</a>
+        <div id="navigation">
+            <hr style="border-top: 3px double #8c2238;"/>
+            <p><a href="index.html">Home</a>
+                <a href="contact.html">Contact</a></p>
+            <hr style="border-top: 3px double #8c2238;"/>
+        </div>
         <h1>Jacob Duerr</h1>
         <h2>Skills</h2>
         <ul>
